@@ -1,0 +1,13 @@
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .navbar{
+        display: flex;
+        position: sticky;
+        width: 100%;
+        height: 20%;
+        box-shadow: 0 7px 4px -9px black;
+    }
+}
